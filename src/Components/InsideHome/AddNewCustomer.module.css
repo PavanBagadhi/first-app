@@ -1,0 +1,66 @@
+.add-new-customer-section{
+  position: relative;
+  display: block;
+  background-color: #162b2b ;
+  max-width: 40%;
+  left: 30%;
+  height: 300px;
+  top: 120px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgb(173, 170, 170);
+}
+
+.add-new-customer-section h1{
+  margin: 0;
+  padding: 20px;
+  background-color: #008080;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-shadow: 5px 5px #162b2b;
+
+}
+
+.add-new-customer-form{
+  padding: 20px;
+  color: white;
+  line-height: 2.5rem;
+  font-size: 20px;
+
+}
+
+.name-input{
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.age-input{
+  width: 50%;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+
+.button{
+  background-color: #164646;
+  padding: 10px 40px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  float: right;
+  font-size: 20px;
+}
+
+.button:hover{
+  background-color: white;
+  color: #164646;
+  border: 2px solid #164646;
+  font-weight: bold;
+}
+
+

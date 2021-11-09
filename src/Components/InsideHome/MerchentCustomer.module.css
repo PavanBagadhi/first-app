@@ -1,0 +1,40 @@
+.li {
+  display: flex;
+
+  border: 2px solid #164646;
+  margin-bottom: 20px;
+  width: 50%;
+  position: relative;
+  left: 300px;
+  justify-content: space-between;
+  border-radius: 5px;
+  color: #164646;
+  box-shadow: 10px 10px 5px #164646;
+}
+
+.merchentCustomerInformation {
+  display: block;
+  padding: 10px;
+}
+
+.btn {
+  padding: 50px;
+  
+}
+
+.btn a {
+  background-color: #164646;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  
+}
+
+.btn a:hover {
+  background-color: transparent;
+  color: #164646;
+  border: 2px solid #164646;
+  font-weight: bold;
+  box-shadow: 10px 10px 5px #164646;
+}

@@ -1,0 +1,37 @@
+.ul{
+  list-style: none;
+}
+
+.sortingAction{
+  display: inline-flex;
+  position: relative;
+  left: 250px;
+  padding: 20px;
+  width: 60%;
+  border-bottom: 3px solid #164646;
+  justify-content: space-between;
+
+}
+
+.sortingAction h1{
+  color: #164646;
+  font-weight: 50000;
+}
+.sortingAction button{
+  padding: 10px;
+  margin: 10px;
+  background-color: #164646;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.sortingAction button:hover{
+  background-color: white;
+  font-weight: bold;
+  color: #164646;
+  border: 2px solid #164646;
+} 

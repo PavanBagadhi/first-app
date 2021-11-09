@@ -1,0 +1,26 @@
+.homeBody ul{
+  background-color:#162b2b ;
+  margin: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: left;
+  list-style: none;
+}
+
+.homeBody ul li{
+  margin: 10px 20px;
+}
+
+.homeBody ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.homeBody ul li a:hover,
+.homeBody ul li a.active{  
+
+  text-decoration: underline;
+  color: #ccc;
+}

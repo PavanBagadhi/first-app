@@ -1,0 +1,77 @@
+.header{
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  background-color: #008080;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+.header h1{
+  color: white;
+  font-size: 32px;
+  float: left;
+  /* text-shadow: 5px 5px rgb(156, 153, 153); */
+  text-shadow: 10px 10px #162b2b;
+}
+.span1{
+  font-size: 50px;
+  font-style: italic;
+}
+.span2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+.header ul{
+  list-style: none;
+  display: flex;
+
+}
+
+.header ul li{
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+/* .active{
+  color: white;
+  text-decoration: none;
+}
+
+.active:hover{
+  color: #ccc;
+  text-decoration: underline;
+
+} */
+
+.header ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.header ul li a:hover,
+.header ul li a.active{
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.signOut-button{
+  background-color: white;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #008080;
+  width: 80px;
+  font-size: 14px;
+ 
+
+}
+
+.signOut-button:hover{
+  font-weight: bold;
+
+}
