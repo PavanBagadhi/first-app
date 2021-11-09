@@ -37,6 +37,7 @@ const SignIn = (props) => {
     let remainingTime
     if (token) {
       history.push('/home');
+      console.log("sdf")
       remainingTime =calculationRemainingTime(exactExpireValue)
     }
 
